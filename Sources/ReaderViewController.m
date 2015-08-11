@@ -731,8 +731,8 @@
 
 	thumbsViewController.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
 	thumbsViewController.modalPresentationStyle = UIModalPresentationFullScreen;
-    thumbsViewController.mainToolbar.titleLabel.text = self.mainToolbar.titleLabel.text;
 	[self presentViewController:thumbsViewController animated:NO completion:NULL];
+    thumbsViewController.mainToolbar.titleLabel.text = self.mainToolbar.titleLabel.text;
     
 #endif // end of READER_ENABLE_THUMBS Option
 }
