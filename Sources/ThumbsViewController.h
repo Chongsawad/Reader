@@ -45,6 +45,8 @@
 
 @property (nonatomic, weak, readwrite) id <ThumbsViewControllerDelegate> delegate;
 
+@property (nonatomic, strong) ThumbsMainToolbar *mainToolbar;
+
 - (instancetype)initWithReaderDocument:(ReaderDocument *)object;
 
 @end

@@ -41,6 +41,7 @@
 @interface ThumbsMainToolbar : UIXToolbarView
 
 @property (nonatomic, weak, readwrite) id <ThumbsMainToolbarDelegate> delegate;
+@property (nonatomic, weak) UILabel *titleLabel;
 
 - (instancetype)initWithFrame:(CGRect)frame title:(NSString *)title;
 
