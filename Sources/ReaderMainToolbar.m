@@ -240,6 +240,7 @@
 #endif // end of READER_FLAT_UI Option
 
 			[self addSubview:titleLabel]; 
+            self.titleLabel = titleLabel;
 		}
 	}
 
